@@ -9,7 +9,6 @@ complex_temp = 1 + 2j
 
 # 字符串 str
 str_temp = "Hello"
-
 # 布尔 bool
 bool_temp1, bool_temp2 = True, False
 
