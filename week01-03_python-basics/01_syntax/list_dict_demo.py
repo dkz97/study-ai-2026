@@ -39,3 +39,45 @@ for value in list_tmp:
         tmp_num = value;
 else:
     print(tmp_num)
+
+# list slice list[start:end:step] 
+# start default is 0
+# end default is end number
+# step default is 1
+list_slice_tmp = list_tmp[1:4:2]
+print(list_slice_tmp)
+
+
+# merge lists
+# unpack lists into a new list [*list, *list2]
+# merge lists using +   list1 + list2....
+print([*list_tmp, *list_slice_tmp])
+print(list_tmp + list_slice_tmp)
+
+# list comprehension
+# [expression for item in iterable]
+list_comperhension = [i**2 for i in range(1,6)]
+print(list_comperhension)
+# [expression for item in iterable if bool]
+list_comperhension2 = [i for i in range(1,11) if i % 2 == 0]
+print(list_comperhension2)
+
+
+# tuple
+# packing
+t1 = (1,2,3,4)
+t2 = 1,2,3,4
+
+# unpacking
+a, b, c, d = t1
+
+# extended unpacking
+x, *y, z = t1
+
+
+# set
+s1 = {1,6,3}
+s2 = {1,9,8}
+
+s3 = s1.difference(s2)
+print(s3)
