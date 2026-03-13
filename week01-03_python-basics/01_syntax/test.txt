@@ -1,0 +1,2 @@
+This repo documents my journey from Java to Python, with a focus on AI engineering practice (7-week plan).
+It includes Python fundamentals, API usage, LLM integration, and two complete AI mini-projects.
