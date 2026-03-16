@@ -45,3 +45,9 @@ chroma_db/
 
 # Dist / output
 output/
+
+# Generated data files
+*.csv
+*.json
+!**/free_code_camp*.json
+*.txt
